@@ -37,7 +37,8 @@ Accessing the Skyscanner API is super simple:
 2. Fill in some details in you Account Settings and then go to the Dashboard
 3. In the Add Apps section of the Dasbhoard, add a new Travel API and name it after your Project or Team Name.
 4. You should see your API key appear in the Apps section of the Dashboard - you're good to go 
-5. Replace the `<API_KEY>` (including the angle brackets!) with the API key in your dashboard. <http://partners.api.skyscanner.net/apiservices/browsequotes/v1.0/GB/GBP/en-GB/LHR/CDG/2017-02-11/2017-02-15?apiKey=<API_KEY>>
+4. Bis. Check the "Test API" button as the API Key is cut as well as doing a test request.
+5. Replace the `<API_KEY>` (including the angle brackets!) with the API key in your dashboard. `http://partners.api.skyscanner.net/apiservices/browsequotes/v1.0/GB/GBP/en-GB/LHR/CDG/2017-02-11/2017-02-15?apiKey=<API_KEY>`
 6. Open the URL in your browser and you'll see an XML representation of some prices from London Heathrow to Charles de Gaulle from 11/02/2017 to 15/02/2017 (you can get JSON by setting the Accept header to `application/json`).
 7. (Optional) Try out the [Live Pricing API Test Harness](http://business.skyscanner.net/portal/en-GB/Documentation/FlightsLivePricingQuickStart).
 
