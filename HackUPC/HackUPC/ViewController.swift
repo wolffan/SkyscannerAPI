@@ -30,8 +30,13 @@ class ViewController: UIViewController {
                     if httpResponse.statusCode != 200 {
                         print("Something went wrong... don't worry ask Skyscanner Team")
                     } else {
+                        
+                        //*** INTERESTING BIT ***//
+                        
                         let json = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions()) as? [String:Any]
-                        print(json["Quotes"])
+                        print(json?["Quotes"])
+                        
+                        //*** INTERESTING BIT ***//
                     }
                 }
             } catch {
