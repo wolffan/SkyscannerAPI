@@ -33,7 +33,7 @@ Upgrading from **Browse Cached Pricing** to **Live Pricing** can always be done 
 
 Accessing the Skyscanner API is super simple:
 
-1. Sign up here. Remember to use the same email address you have provided to the Hackathon organiser! Only one team member needs to sign up.
+1. Sign up [here](http://portal.business.skyscanner.net/en-gb/accounts/login/). Remember to use the same email address you have provided to the Hackathon organiser! Only one team member needs to sign up.
 2. Fill in some details in you Account Settings and then go to the Dashboard
 3. In the Add Apps section of the Dasbhoard, add a new Travel API and name it after your Project or Team Name.
 4. You should see your API key appear in the Apps section of the Dashboard - you're good to go 
